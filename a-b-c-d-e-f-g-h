@@ -1,0 +1,12 @@
+<?php
+
+//use any loop to create following output
+
+// a-b-c-d-e-f-g-h
+
+
+foreach (range("a","z") as $value ) {
+   $output = $value."-";
+   echo $output."\n";
+}
+
