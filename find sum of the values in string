@@ -1,0 +1,7 @@
+<?php
+
+// find sum of the values in string
+
+$string = "1,2,3,4,5,6";
+// print_r(str_split($string));
+echo array_sum(str_split($string));
