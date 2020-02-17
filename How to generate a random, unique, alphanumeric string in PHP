@@ -1,0 +1,11 @@
+<?php 
+
+// This function will return a random 
+// string of specified length 
+
+	// String of all alphanumeric character 
+	$str_result = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'; 
+
+	// Shufle the $str_result and returns substring 
+	// of specified length 
+echo str_shuffle($str_result);
