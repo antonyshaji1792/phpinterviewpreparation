@@ -1,0 +1,7 @@
+<?php
+
+// reverse $number = "12345"
+$number = "12345";
+echo strrev($number);
+
+
