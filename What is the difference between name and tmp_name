@@ -1,0 +1,1 @@
+Your file will temporary store on this path $_FILES['image_path']['tmp_name']. so when you move it will be remove from temp folder to your folder. If you use copy command instead of move_uploaded_file then your temp file will be stay in your server's temp folder. you can search file name in there
