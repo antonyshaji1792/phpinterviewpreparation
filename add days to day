@@ -1,0 +1,8 @@
+<?php
+
+// find sum of the values in string
+
+$Date = date('Y-m-d');
+echo $Date. ' + 3 days'."<br>";
+echo strtotime($Date. ' + 3 days')."<br>";
+echo date('Y-m-d', strtotime($Date. ' + 3 days'));
