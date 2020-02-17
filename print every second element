@@ -1,0 +1,11 @@
+<?php
+
+// print every second element
+
+$input = array('apple','orange','banana','mango','pineapple','papaya','kiwi');
+
+for ($i=0; $i < count($input); $i++) { 
+    if($i%2 == 1){
+        echo $input[$i]."<br>";
+    }
+}
